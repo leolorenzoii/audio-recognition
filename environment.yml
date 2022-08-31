@@ -1,0 +1,24 @@
+name: audio
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - ipykernel
+  - python=3.8.13
+  - scikit-learn
+  - seaborn
+  - pip
+  - scipy
+  - notebook
+  - tensorflow
+  - pip:
+    - jupyter-contrib-nbextensions
+    - ipywidgets
+    - scikit-image
+    - hydra
+    - hydra-joblib-launcher
+    - wandb
+    - omegaconf
